@@ -1,0 +1,27 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://10.0.0.243:41243",
+      "sslPort": 7566
+    }
+  },
+  "profiles": {
+    "ToDoList": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://10.0.0.243:7566;http://10.0.0.243:5187",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
